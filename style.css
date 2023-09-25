@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color : rgb(85, 85,85s);
+}
+a, .btn{
+    text-emphasis:  all 300ms ease;
+}
+nav, .nav-link{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+a{
+    color: black;
+    text-decoration-color: white;
+    text-decoration:none ;
+}
+.nav-link{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+a:hover{
+    color:gray;
+    text-decoration: underline;
+   text-decoration-color: rgb(185,185,185);
+   text-underline-offset: 1rem;
+}
+.logo{
+    font-size: 2rem;
+
+}
+.logo:hover{
+    cursor: default;
+}
+section{
+    padding: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+}
+.section-container
+{
+    display: flex;
+}
+#profile{
+    display: flex;
+justify-content: center;
+gap: 15rem;
+height: 80vh;
+}
+.section-pic-container{
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+    display: flex;
+
+}
+.section_text{
+    text-align: center;
+    align-self: center;
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+}
+.section-text-p2{
+    font-size: 20px;
+}
+
+.socialmedia{
+   display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+.icon1{
+    cursor: pointer;
+    height: 2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+button{
+    font-weight: 600;
+    transition: all 100ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+
+}
+.btn-btn-color, .btn-btn-color-2{
+    border: rgb(50,53,53) 0.1rem solid;
+}
+.btn-btn-color:hover, .btn-btn-color-2:hover{
+    border: rgb(50,53,53) 0.1rem solid;
+    cursor: pointer;
+}
+.btn-btn-color, .btn-btn-color-2:hover{
+    background: rgb(53,53,53);
+    color: white;
+}
+.btn-btn-color:hover{
+    background: rgb(0,0,0);
+}
+.btn-btn-color-2{
+    border: rgb(253,253,253) 0.1rem solid;
+}
+.btn-container{
+    gap: 1rem;
+
+}
+.icon2 {
+    cursor: pointer;
+    height: 2rem;
+
+}
+.icon3{
+    cursor: pointer;
+    height: 2rem;
+
+}
